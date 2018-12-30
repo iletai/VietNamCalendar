@@ -4,20 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="popup.css">
+  <link rel="stylesheet" type="text/css" href="jquery.amlich.css">
+  <script src="jquery-2.1.0.min.js"></script>
+  <script src="jquery.amlich.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <div>
-    <button class="tablink" id="homeTab">Home</button>
-    <button class="tablink" id="newTab">News</button>
-    <button class="tablink" id="contactTab">Contact</button>
-    <button class="tablink" id="aboutTab">About</button>
+    <button class="tablink" id="homeTab">Âm lịch</button>
+    <button class="tablink" id="newTab">Tiện ích</button>
+    <button class="tablink" id="contactTab">Liên hệ</button>
+    <button class="tablink" id="aboutTab">Giới thiệu</button>
   </div>
 
   <div id="Home" class="tabcontent">
-    <h3>Home</h3>
-    <p>Home is where the heart is..</p>
+    <div id="amlich-calendar"></div>
   </div>
 
   <div id="News" class="tabcontent">

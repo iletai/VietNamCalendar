@@ -6,9 +6,16 @@ document.getElementById('homeTab').addEventListener('click', function () {
     }
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-        i == 0 ? tablinks[i].style.backgroundColor = "red" :tablinks[i].style.backgroundColor = "";
+        i == 0 ? tablinks[i].style.backgroundColor = "red" : tablinks[i].style.backgroundColor = "";
     }
+    $(function() {
+        $('#amlich-calendar').amLich({
+          type: 'calendar',
+          tableWidth: '400px'
+        });
+      });
     document.getElementById('Home').style.display = "block";
+
 });
 
 document.getElementById('aboutTab').addEventListener('click', function () {
@@ -20,7 +27,7 @@ document.getElementById('aboutTab').addEventListener('click', function () {
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].style.backgroundColor = "none";
-        i == 3 ? tablinks[i].style.backgroundColor = "orange" :tablinks[i].style.backgroundColor = "";
+        i == 3 ? tablinks[i].style.backgroundColor = "orange" : tablinks[i].style.backgroundColor = "";
     }
     document.getElementById('About').style.display = "block";
 });
@@ -33,11 +40,10 @@ document.getElementById('contactTab').addEventListener('click', function () {
     }
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-
-        i == 2 ? tablinks[i].style.backgroundColor = "blue" :tablinks[i].style.backgroundColor = "";
+        i == 2 ? tablinks[i].style.backgroundColor = "blue" : tablinks[i].style.backgroundColor = "";
     }
-        document.getElementById('Contact').style.display = "block";
-    });
+    document.getElementById('Contact').style.display = "block";
+});
 
 document.getElementById('newTab').addEventListener('click', function () {
     var i, tabcontent, tablinks;
@@ -47,7 +53,7 @@ document.getElementById('newTab').addEventListener('click', function () {
     }
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-        i == 1 ? tablinks[i].style.backgroundColor = "green" :tablinks[i].style.backgroundColor = "";
+        i == 1 ? tablinks[i].style.backgroundColor = "green" : tablinks[i].style.backgroundColor = "";
     }
     document.getElementById('News').style.display = "block";
 });
