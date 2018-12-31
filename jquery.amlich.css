@@ -4,7 +4,7 @@
   font-family: Roboto, sans-serif;
 }
 .calendar { font-size: 12px; }
-.calendar td { background-color:transparent;  }
+.calendar td { background-color: goldenrod;  }
 .calendar-month {
   background-color: #1e8cbe !important;
   color: #fff; text-shadow: 0px 0px 3px #000;
