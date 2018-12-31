@@ -1,10 +1,19 @@
 {
-    // Required
     "manifest_version": 2,
     "name": "My Extension",
     "version": "1.0",
     "browser_action": {
         "default_title": "TaiLe extension",
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_icon" : "img/icon2.png"
+    },
+    "background" : {
+     "scripts" : ["background.js"]
+    },
+    "options_page" : "option.html",
+    "icons" : {
+        "16" : "img/icon4.ico",
+        "48" : "img/icon.png",
+        "128" : "img/icon3.png"
     }
 }
