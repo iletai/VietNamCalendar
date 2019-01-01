@@ -1,3 +1,22 @@
+// document.getElementById('homeTab').addEventListener('click', function () {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName('tabcontent');
+for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < tablinks.length; i++) {
+    i == 0 ? tablinks[i].style.backgroundColor = "red" : tablinks[i].style.backgroundColor = "";
+}
+$(function () {
+    $('#amlich-calendar').amLich({
+        type: 'calendar',
+        tableWidth: '400px'
+    });
+});
+document.getElementById('Home').style.display = "block";
+
+// });
 document.getElementById('homeTab').addEventListener('click', function () {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName('tabcontent');
@@ -8,12 +27,12 @@ document.getElementById('homeTab').addEventListener('click', function () {
     for (i = 0; i < tablinks.length; i++) {
         i == 0 ? tablinks[i].style.backgroundColor = "red" : tablinks[i].style.backgroundColor = "";
     }
-    $(function() {
+    $(function () {
         $('#amlich-calendar').amLich({
-          type: 'calendar',
-          tableWidth: '400px'
+            type: 'calendar',
+            tableWidth: '400px'
         });
-      });
+    });
     document.getElementById('Home').style.display = "block";
 
 });
