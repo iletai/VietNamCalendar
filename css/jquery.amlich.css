@@ -2,9 +2,12 @@
   border-collapse: collapse;
   font-size: 14px;
   font-family: Roboto, sans-serif;
+ 
 }
 .calendar { font-size: 12px; }
-.calendar td { background-color: goldenrod;  }
+.calendar td {  
+  background-color: slategrey;
+}
 .calendar-month {
   background-color: #1e8cbe !important;
   color: #fff; text-shadow: 0px 0px 3px #000;

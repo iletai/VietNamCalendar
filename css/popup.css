@@ -13,6 +13,18 @@
     background-size: 128px 128px;
   }
 
+.btn-primary {
+  height: 30px;
+  width: 80px;
+  border: none;
+ outline: none;
+  border-radius: 999px;
+  background-color: red;
+}
+.btn-primary:hover {
+  background-color: rebeccapurple;
+  color:white;
+}
  .tablink {
    background-color: #555;
    color: white;
@@ -41,13 +53,13 @@
 }
 
 #News {
-  background-color: green;
+  /* background-color: green; */
 }
 
 #Contact {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 #About {
-  background-color: orange;
+  /* background-color: orange; */
 }
