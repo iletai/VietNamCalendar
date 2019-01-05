@@ -14,8 +14,8 @@
   }
 
 .btn-primary {
-  height: 30px;
-  width: 80px;
+  height: 40px;
+  width: auto;
   border: none;
  outline: none;
   border-radius: 999px;
@@ -25,6 +25,19 @@
   background-color: rebeccapurple;
   color:white;
 }
+
+.input-me{
+  height: 40px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: 0px solid;
+  outline: none;
+  text-align: center;
+}
+
+ 
+
  .tablink {
    background-color: #555;
    color: white;
