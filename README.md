@@ -4,5 +4,7 @@
 
  ![Img](https://github.com/iletai/VietNamCalendar/blob/master/img/screenshot.png "screenshot")
 
+ ![Img](https://github.com/iletai/VietNamCalendar/blob/master/img/notelist.png "screenshot")
+ 
 - If you have some question or infomation want suggess, feel free to ping me in contact info at github.com/iletai
 
