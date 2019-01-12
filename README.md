@@ -1,5 +1,7 @@
 # This extension help show calendar of Viet Nam follow Mon Callendar
 
+* I will improvement GUI and .min. soon 
+
 * Help show some future to help working time faster and something related
 
  ![Img](https://github.com/iletai/VietNamCalendar/blob/master/img/screenshot.png "screenshot")
