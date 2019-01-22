@@ -1,4 +1,4 @@
-# This extension help show calendar of Viet Nam follow Mon Callendar
+# This extension help show calendar of Viet Nam follow Moon Callendar
 
 * I will improvement GUI and .min. soon 
 
